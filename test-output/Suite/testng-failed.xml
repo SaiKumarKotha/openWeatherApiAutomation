@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utils.TestListner"/>
+  </listeners>
+  <test name="SmokeTest(failed)">
+    <classes>
+      <class name="testScripts.SmokeTests">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="testCaseTwo"/>
+          <include name="testCaseOne"/>
+          <include name="testCaseThree"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testScripts.SmokeTests -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

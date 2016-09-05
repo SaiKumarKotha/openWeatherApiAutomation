@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Open_weather_Smoke_test" parallel="false">
+<listeners>
+	<listener class-name="utils.TestListner"/>
+</listeners> 
+
+  <test name="SmokeTest">
+    <classes>
+      <class name="testScripts.SmokeTests">
+      	<methods>      		
+      		<include name="simpleTest"/>
+      		<include name="cityCoordTest"/>
+      		<include name="cityMaintest"/>
+      		<include name="testCaseExcelDataProvider"/>
+      		<exclude name="testCaseTwo"/>
+      		<exclude name="testCaseOne"/>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

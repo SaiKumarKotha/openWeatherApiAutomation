@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Open_weather_Smoke_test" duration-ms="865" started-at="2016-09-05T11:53:50Z" finished-at="2016-09-05T11:53:51Z">
+    <groups>
+    </groups>
+    <test name="SmokeTest" duration-ms="865" started-at="2016-09-05T11:53:50Z" finished-at="2016-09-05T11:53:51Z">
+      <class name="testScripts.SmokeTests">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="beforeMethod" is-config="true" duration-ms="117" started-at="2016-09-05T17:23:50Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="simpleTest()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="simpleTest" duration-ms="293" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="cityCoordTest()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="cityCoordTest" duration-ms="55" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityCoordTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="cityMaintest()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="cityMaintest" duration-ms="53" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityMaintest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCaseExcelDataProvider(java.lang.String, java.lang.String)[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="testCaseExcelDataProvider" duration-ms="61" started-at="2016-09-05T17:23:51Z" data-provider="cityExcelDataProvider" finished-at="2016-09-05T17:23:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1269843]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseExcelDataProvider -->
+        <test-method status="PASS" signature="testCaseExcelDataProvider(java.lang.String, java.lang.String)[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="testCaseExcelDataProvider" duration-ms="109" started-at="2016-09-05T17:23:51Z" data-provider="cityExcelDataProvider" finished-at="2016-09-05T17:23:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5391959]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[San Francisco]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseExcelDataProvider -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCaseExcelDataProvider(java.lang.String, java.lang.String)[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="testCaseExcelDataProvider" duration-ms="106" started-at="2016-09-05T17:23:51Z" data-provider="cityExcelDataProvider" finished-at="2016-09-05T17:23:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2643743]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseExcelDataProvider -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCaseExcelDataProvider(java.lang.String, java.lang.String)[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="testCaseExcelDataProvider" duration-ms="88" started-at="2016-09-05T17:23:51Z" data-provider="cityExcelDataProvider" finished-at="2016-09-05T17:23:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4887398]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseExcelDataProvider -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testScripts.SmokeTests@6964fe95]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-05T17:23:51Z" finished-at="2016-09-05T17:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testScripts.SmokeTests -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- Open_weather_Smoke_test -->
+</testng-results>
